@@ -49,6 +49,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
         errorMeassage('none', 'none', 'block', 'none');
     }
     else {
+        //negative number error message
         if (saveInput.value < 0) {
             errorMeassage('none', 'block', 'none', 'none');
         }

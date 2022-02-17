@@ -1,0 +1,23 @@
+/* h1 text color */
+h1{
+    color: rgb(190, 3, 128);
+}
+/* estimate section */
+.estimate{
+    background-color: rgb(255, 186, 234);
+    margin: 0px 20px;
+} 
+/* error section */
+.error-message{
+    display: none;
+}
+/* all button css */
+.button{
+    background-color: rgb(190, 3, 128);
+    color: white;
+}
+.button:hover{
+    border: 2px solid rgb(190, 3, 128);
+    background-color: white;
+    color: rgb(190, 3, 128);
+}

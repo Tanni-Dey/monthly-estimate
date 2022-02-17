@@ -60,6 +60,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
             remainBalance.innerText = parseFloat(balance.innerText) - parseFloat(saveAmount.innerText);
         }
     }
+    //all input value empty string
     foodInput.value = '';
     rentInput.value = '';
     clothInput.value = '';
